@@ -1,0 +1,25 @@
+.guide ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: antiquewhite;
+}
+
+.guide li{
+    text-align: center;
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 15pt;
+}
+
+.guide a{
+    display: block;
+    padding: 10px;
+    color: #8191d0;
+    text-decoration: none;
+}
+
+.guide li:first-child {
+    grid-column: 1 / span 2;
+}

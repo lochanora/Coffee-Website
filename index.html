@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee</title>
+
+    <style>
+        nav ul{
+            display: flex;
+            justify-content:center;
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            
+        }
+        nav a{
+            color: rgb(247, 242, 190);
+            text-decoration: none;
+        }
+
+        body {
+            display: flex;
+            flex-flow: column;
+            margin: 0px -5px 0px -5px;
+        }
+
+        .background {
+            background-image: url(Coffee\ header.JPG) ;
+            background-size: cover;
+            background-attachment: fixed;
+            background-position:center;
+            height: 100vh;
+            
+        }
+
+        header img{
+            position: relative;
+            top: 20px;
+            width: 100px;
+            background-position: bottom left;
+            
+        }
+
+        .guide {
+            display: grid;
+            grid-template-rows: 85px;
+            align-items: center;
+            background-color:antiquewhite;
+            opacity: 0.9;
+            
+
+        }
+
+        .guide ul{
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        .guide li{
+            text-align: center;
+            display: inline-block;
+            margin: 0 10px;
+            font-size: 15pt;
+        }
+
+        .guide a{
+            display: block;
+            padding: 10px;
+            color: #8191d0;
+            text-decoration: none;
+        }
+
+        .guide li:first-child {
+            grid-column: 1 / span 2;
+        }
+
+        section h1{
+            font-size: 20pt;
+            color: bq;
+            margin: auto;
+            width: 50%;
+            text-align: center;
+            padding: 130px;
+            
+        } 
+
+        section p{
+            color: beige;
+            width: 35%;
+            margin: 0 auto;
+            text-align: center;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            padding: 30px;
+            
+           
+        }
+        .what{
+            display: flex;
+            flex-flow: column;
+            align-items: center;
+            justify-content: center;
+            height: 20vh;
+            margin-top: 50px;
+            padding: 70px;
+            color: beige;
+            
+        }
+            
+        
+        .bean {
+            padding-top: 70px;
+            display: flex;
+            align-content: space-between;
+            justify-content: space-around;
+            background-color: antiquewhite;
+            padding-bottom: 70px;
+        }
+
+        .bean img {
+            height: 300px;
+            border-radius: 1%;
+            
+        }
+
+        .header1{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size:larger;
+        }
+
+
+        .container2 {
+            display: flex;
+            flex-flow: column;
+            justify-content: center;
+            align-content: flex-start;
+            text-align: center;
+        }
+
+        .header2{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        
+        }
+
+        .plant {
+            height: 150px;
+        }
+
+        .plant img{
+            width: 80%;
+            padding: 20px;
+            background-size: cover;
+    
+        }
+
+        .container3{
+            display: flex;
+            flex-flow: column;
+            justify-content: center;
+            align-content: flex-start;
+            text-align: center;
+            color: aliceblue;
+            padding: 20px;
+        }
+
+        .plant1{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 35px;
+        }
+
+        .plant2{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            padding: 100px;
+            font-size: 20px;
+        }
+
+        .footer {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        background-color: #333;
+        color: white;
+        padding: 20px;
+        text-align: center;
+    }
+
+
+    </style>
+<script src="style.css"></script>
+</head>
+<body>
+    <div class="background">
+    <div class="container-main">
+    <header>
+        <img src="logo image.PNG" alt ="logo">
+    </header>
+
+    <nav class="guide">
+        <ul>
+        <li><a href="index1.html">Coffee</a></li> &nbsp; &nbsp; &nbsp; &nbsp;
+        
+        <li><a href="index2.html">Life</a></li> &nbsp; &nbsp; &nbsp; &nbsp;
+        </ul>
+    </nav>
+    
+    <main>
+        <section class="what">
+                        <h1>What is Coffee?</h1>
+                        <p>
+                            Coffee is a drink prepared from roasted coffee beans. <br>
+                            Darkly colored, bitter, and slightly acidic, coffee has a stimulating effect on humans, 
+                            primarily due to its caffeine content.<br>
+                            It has the highest sales in the world market for hot drinks.
+                        </p>
+                
+        </section>
+    </div>
+    </div>
+    <div class="bean">
+        <img src="beans.jpg" alt="">
+    <div class="container2">
+        <div class="text1">
+            <div>
+                <p class="header1">Coffee bean seed</p>
+            </div>
+            <div>
+                <p class="header2">A coffee bean is a seed of the Coffea plant and the source for coffee.<br>It is the pip inside the red or purple fruit.<br>This fruit is often referred to as a coffee cherry.</p>
+            </div>
+        </div>
+    </div>
+    </div>
+    <center>
+    <div class="plant">
+        <img src="plantation.jpg" alt="">
+    </div>
+    </center>
+    <div class="container3">
+    <div>
+    <p class="plant1">Benefits of Coffee</p>
+    </div>
+    <div>
+    <p class="plant2">Coffee is a popular beverage that researchers have studied extensively for its many health benefits, <br>including its ability to increase energy levels, promote weight management, <br>enhance athletic performance, and protect against chronic disease.</p>
+    </div>
+
+</div>
+   
+
+
+
+
+
+
+
+    </div>
+    </main>
+</body>
+<div class="footer">
+    <nav><a href="index3.html">About Us</a></nav>
+</div>
+</html>
